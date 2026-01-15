@@ -20,26 +20,12 @@ export default function Contact() {
       </p>
 
       <form className="mt-8 flex flex-col gap-4">
-        <input
-          className="rounded-xl px-4 py-3 bg-black/40 border border-white/10 outline-none focus:border-[#5D2A9B]"
-          placeholder="Nome"
-        />
-        <input
-          className="rounded-xl px-4 py-3 bg-black/40 border border-white/10 outline-none focus:border-[#5D2A9B]"
-          placeholder="Email"
-          type="email"
-        />
-        <textarea
-          className="rounded-xl px-4 py-3 bg-black/40 border border-white/10 outline-none focus:border-[#5D2A9B]"
-          placeholder="Mensagem"
-          rows={4}
-        />
-
         <button
           type="button"
           className="mt-2 rounded-full px-6 py-3 font-semibold bg-gradient-to-r from-[#5D2A9B] to-[#502F78]"
+          onClick={() => window.open('https://beacons.ai/infinityweb_', '_blank')}
         >
-          Enviar
+          Entrar em Contato
         </button>
       </form>
     </motion.div>
