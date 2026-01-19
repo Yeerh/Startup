@@ -21,6 +21,7 @@ export default function Home() {
 
 <section id="why">
   <WhyChoose />
+  
 </section>
 
 <section id="who">
@@ -29,6 +30,7 @@ export default function Home() {
 
 <section id="services">
   <Services />
+ 
 </section>
 
       {/* PROJETOS (3 cards com foto) */}
