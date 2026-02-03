@@ -4,7 +4,7 @@ import rastromovilleImg from "@/assets/projects/rastromoville.png";
 import pernambucoImg from "@/assets/projects/pernambuco.png";
 import recadastramentoImg from "@/assets/projects/recadastramento.png";
 import neuropsImg from "@/assets/projects/neurops.png";
-import infinitybarberImg from "@/assets/projects/infinitybarber.PNG";
+import infinitybarberImg from "@/assets/projects/infinitybarber.png";
 
 const projects = [
   {
