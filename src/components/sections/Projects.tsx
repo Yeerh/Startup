@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import rastromovilleImg from "@/assets/projects/rastromoville.png";
 import pernambucoImg from "@/assets/projects/pernambuco.png";
 import recadastramentoImg from "@/assets/projects/recadastramento.png";
+import neuropsImg from "@/assets/projects/neurops.png";
+import infinitybarberImg from "@/assets/projects/infinitybarber.PNG";
 
 const projects = [
   {
@@ -22,6 +24,18 @@ const projects = [
     description:
       "Sistema desenvolvido para auxiliar servidores efetivos no processo de recadastramento funcional, de forma simples e segura.",
     image: recadastramentoImg,
+  },
+  {
+    title: "Neurops",
+    description:
+      "Plataforma de neuropsicologia e avaliacao cognitiva, com foco em agendamentos e acompanhamento.",
+    image: neuropsImg,
+  },
+  {
+    title: "Infinity Barber",
+    description:
+      "Site institucional para barbearia, com servicos, portfolio e agendamento.",
+    image: infinitybarberImg,
   },
 ];
 
